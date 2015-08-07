@@ -1,0 +1,45 @@
+html {
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+}
+body {
+	margin: 0;
+	background: #21202d;
+}
+input.search {
+	background: #4d4d57;
+	color: #fff;
+	padding: 30px;
+	border: none;
+	width: 100%;
+	box-sizing: border-box;
+	font-size: 18px;
+}
+
+.search-results {
+	padding: 60px 60px 0;
+}
+
+.search-results ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+.search-results li {
+	list-style: none;
+	display: flex;
+	width: 25%;
+	box-sizing:  border-box;
+	padding: 0 15px 0;
+}
+.search-results li img {
+	max-width: 100%;
+}
+
+h2 {
+	margin: none;
+	font-family: Baskerville,"Baskerville Old Face","Hoefler Text",Garamond,"Times New Roman",serif;
+	font-size: 32px;
+	font-weight: normal;
+	color: #fff;
+	text-align: center;
+}
